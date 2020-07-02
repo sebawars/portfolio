@@ -2,7 +2,7 @@
   "name": "miprimerproyecto",
   "version": "1.0.0",
   "description": "Primer proyecto integrado para portafolio",
-  "main": "index.js",
+  "main": "./api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "nanoid": "^3.1.10"
+    "nanoid": "^2.1.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
