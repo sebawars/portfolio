@@ -136,8 +136,45 @@ body{
 .bottom-section{
     background-color: rgb(240, 235, 203);
     height: 10%;
+    display: flex;
+    align-content: center;
 }   
 
+
+.bottom-section a{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+}
+
+.bottom-section a img{
+    width: 0.9em;
+}
+
+.bottom-section .bottom-section-social-media{
+    display: flex;
+    width: 8em;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 0.3em;
+}
+
+.bottom-section .bottom-section-social-media .bottom-section-social-media-hand-writing{
+    font-family: 'Loved by the King', cursive;
+    font-size: 0.6em;
+    font-weight: 1000;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+}
+
+.bottom-section .bottom-section-social-media img{
+    transition: 0.3s ease-out;
+}
+
+.bottom-section .bottom-section-social-media img:hover{
+    width: 1.2em;
+}
 
 @media (max-width: 1880px){
     body{
@@ -200,6 +237,9 @@ body{
 
     body{
         font-size: 22px;
+        /* Se agrega para calcular bien el alto en mobile */
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
     }
 
     .main-section{ 
@@ -230,6 +270,26 @@ body{
         top: 1.5em;
         right: 0;
     }
+
+    .main-section .main-section-right-side-container hr{
+        margin: 2.4em 0 2em 0;
+    }
+
+    .bottom-section {
+        justify-content: center;
+    }
+
+    .bottom-section .bottom-section-social-media{
+        width: 16em;
+    }
+
+    .bottom-section a img{
+        width: 1.5em;
+    }
+
+    .bottom-section .bottom-section-social-media .bottom-section-social-media-hand-writing{
+        font-size: 0.9em;
+    }
 }
 @media (max-width: 568px){
     .main-section .main-section-right-side-container hr{
@@ -254,6 +314,9 @@ body{
 @media (max-width: 486px){
     body{
         font-size: 19px;
+    }
+    .main-section .main-section-right-side-container hr{
+        margin: 2.4em 0 2em 0;
     }
 }
 

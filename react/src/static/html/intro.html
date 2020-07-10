@@ -27,9 +27,24 @@
             </div>
         </div>
     </main>
-    <section class="bottom-section"></section>
-    <footer>
-        <script> /*Se agrega para evitar transiciones iniciales*/ </script>
+    <footer class="bottom-section">
+        <div class="bottom-section-social-media">
+            <span class="bottom-section-social-media-hand-writing">Mis <br>redes!</span>
+            <a href="#"><img src="../img/lk.svg" alt=""></a>
+            <a href="#"><img src="../img/ig.svg" alt=""></a>
+            <a href="#"><img src="../img/fb.svg" alt=""></a>
+            <a href="#"><img src="../img/tw.svg" alt=""></a>
+        </div>
+        <script> 
+            /*Primero se agregó código vacío acá para evitar transiciones iniciales*/ 
+
+            window.addEventListener('resize', () => {
+            // We execute the same script as before
+                let vh = window.innerHeight * 0.01;
+                document.documentElement.style.setProperty('--vh', `${vh}px`);
+            });
+
+        </script>
     </footer>
 </body>
 </html>
