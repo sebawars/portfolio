@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Loved+by+the+King&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap'); 
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.top-section{
+    background-color: rgb(90, 73, 55);
+    height: 10%;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: rgb(240, 235, 203);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 0.5em;
+}
+
+.top-section a{
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(240, 235, 203);
+    transition: 0.3s ease-out;
+}
+
+.top-section a:hover{
+    font-size: 47px;
+}
+
+.main-section{
+    background-color: rgb(297, 167, 118);
+    height: 80%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 3fr 5fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.main-section .main-section-imgs{
+    position: relative;
+    grid-column-start: 2;
+}
+
+.main-section .main-section-hand-writing{
+    position: absolute;
+    bottom: 0;
+    width: 8em;
+    right: 0;
+    left: -4.5em;
+    top: -2.3em;
+    font-family: 'Loved by the King', cursive;
+    font-size: 40px;
+    font-weight: 1000;
+    
+}
+
+.main-section .main-section-arrow{
+    position: absolute;
+    bottom: 0;
+    width: 8em;
+    right: 0;
+    left: -7em;
+    top: -2em;
+}
+
+.main-section .main-section-photo{
+    width: 18em;
+    border-radius: 100%;
+    border: solid 0.4em;
+    border-color: rgb(240, 235, 203);
+    align-self: center;
+}
+
+
+.main-section #main-section-name{
+    color: rgb(240, 235, 203);
+    font-size: 60px;
+}
+
+.main-section .main-section-right-side-container{
+    margin: auto 1em;
+    align-items: center;
+    color: rgb(90, 73, 55);
+    font-size: 60px;
+}
+
+.main-section .main-section-right-side-container p,
+.main-section .main-section-right-side-container span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-section .main-section-right-side-container hr{
+    height: 3px;
+    background-color:rgb(90, 73, 55);
+    border-width:0;
+    color:rgb(90, 73, 55);
+    margin: 1.2em 0 1em 0;
+}
+
+
+.main-section .main-section-right-side-container .main-section-right-down-side-container{
+    text-align: center;
+}
+
+
+.main-section .main-section-right-side-container .main-section-welcome{
+    color: rgb(229, 97, 50);
+    margin-bottom: 10em;
+}
+
+.main-section .main-section-right-side-container .main-section-access{
+    text-decoration: none;
+    border: solid;
+    font-size: 35px;
+    padding: 0.3em;
+    border-radius: 50%;
+    color: rgb(90, 73, 55);
+    background-color: rgb(240, 235, 203);
+    transition: 0.3s ease-out;
+}
+
+.main-section .main-section-right-side-container .main-section-access:hover {
+    font-size: 40px;
+}
+
+.bottom-section{
+    background-color: rgb(240, 235, 203);
+    height: 10%;
+}   

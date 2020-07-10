@@ -1,0 +1,13 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+main{
+    width: 60%;
+    background-color: rgb(119, 157, 136);
+    margin: auto;
+    text-align: center;
+    padding: 2em 0;
+}
+
+main p{
+    margin: 0;
+}
