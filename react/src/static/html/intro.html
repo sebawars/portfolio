@@ -38,11 +38,13 @@
         <script> 
             /*Primero se agregó código vacío acá para evitar transiciones iniciales*/ 
 
-            window.addEventListener('resize', () => {
-            // We execute the same script as before
+            function corrigeViewportMobile(){
                 let vh = window.innerHeight * 0.01;
                 document.documentElement.style.setProperty('--vh', `${vh}px`);
-            });
+            }
+
+            window.addEventListener('resize', corrigeViewportMobile);
+            window.addEventListener('reload', corrigeViewportMobile);
 
         </script>
     </footer>
