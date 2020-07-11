@@ -4,51 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/main-nav.css">
-    <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/commons.css">
 </head>
 <body>
+    <header class="top-section">
+        <a href="#">¡Mi Portafolio Web!</a>
+    </header>
+    <main class="main-section">
+        <div class="main-section-imgs">
+            <span class="main-section-hand-writing">Este soy yo</span>
+            <img src="../img/arrow.gif" class="main-section-arrow" alt="">
+            <img src="../img/foto.png" class="main-section-photo" alt="">
+        </div>
+        <div class="main-section-right-side-container">
+            <span >Hola, mi nombre es </span> <br>
+            <span id="main-section-name">Sebastián Morales</span><span > y</span> <br>
+            <span >DESARROLLO SOFTWARE!</span> <br>
+            <hr>
+            <div class="main-section-right-down-side-container">
+                <span class="main-section-welcome">¡Conozcamos mi PORTAFOLIO ONLINE!</span>
+                <a href="#" class="main-section-access">ACCEDER</a><br>
+            </div>
+        </div>
+    </main>
+    <footer class="bottom-section">
+        <div class="bottom-section-social-media">
+            <span class="bottom-section-social-media-hand-writing">Mis <br>redes!</span>
+            <a href="#"><img src="../img/lk.svg" alt=""></a>
+            <a href="#"><img src="../img/ig.svg" alt=""></a>
+            <a href="#"><img src="../img/fb.svg" alt=""></a>
+            <a href="#"><img src="../img/tw.svg" alt=""></a>
+        </div>
+        <script> 
+            /*Primero se agregó código vacío acá para evitar transiciones iniciales*/ 
+            
+            function corrigeViewportMobile(){
+                let vh = window.innerHeight * 0.01;
+                document.documentElement.style.setProperty('--vh', `${vh}px`);
+            }
 
-<section class="main-nav">
-    <div class="main-nav-sections">
-        <span>Introducción</span>
-        <span>Proyectos</span>
-        <span>Acerca de mí</span>
-    </div>
-</section>
-<main>
-    <nav class="floating-menu">
-        <ul class="main-menu">
-            <li>
-                <a href="#" class="ripple">
-                    <i class="fas fa-home fa-lg"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="ripple">
-                    <i class="far fa-user fa-lg"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="ripple">
-                    <i class="far fa-address-card fa-lg"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="ripple">
-                    <i class="fas fa-cogs fa-lg"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="ripple">
-                    <i class="fab fa-blogger-b fa-lg"></i>
-                </a>
-            </li>
-        </ul>
-        <div class="menu-bg"></div>
-    </nav>
-</main>
-    
+            corrigeViewportMobile();
+
+            window.addEventListener('resize', () => {
+                corrigeViewportMobile();
+            });
+
+        </script>
+    </footer>
 </body>
 </html>
