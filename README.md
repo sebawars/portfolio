@@ -2,22 +2,23 @@
 
 ### Tecnologías:
 
-    **Frontend**:
+## Frontend:
 
-	* SPA con React.
-	* Bootstrap.
-	* HTML y CSS.
-	* Flexbox y CSS Grid.
+-SPA con React JS.
+-HTML y CSS.
+-Flexbox y CSS Grid.
+-Bootstrap.
 
-    **Backend**:
 
-	* Express JS de Node.
-	* Sequelize para base de datos.
-	* MongoDB/MySQL/PostgreSQL.
-	* Docker.
-	* AWS.
+## Backend:
 
-  * TODO:
+-Express JS de Node.
+-Sequelize para base de datos.
+-PostgreSQL.
+-Docker.
+-AWS.
+
+## TODO:
 
 - Position absolute en Firefox
 - Fondo imgs cafe y donas
