@@ -146,14 +146,11 @@ body{
     font-size: 0.5em;
 }
 
-#educacion{
+.educacion-item{
+    justify-content: center;
     background-color: rgb(240, 235, 203);
-    display: flex;
     margin: auto;
     width: 19em;
-    height: 10em;
-    justify-content: center;
-    background-color: rgb(240, 235, 203);;
     border: solid rgb(90, 73, 55);
     font-family: 'Barlow Condensed', sans-serif;
     padding: 0.3em;
@@ -162,4 +159,39 @@ body{
 #educacion img{
     width: 3em;
     height: 3em;
+}
+
+.experiencia-item{
+    justify-content: center;
+    background-color: rgb(90, 73, 55);
+    margin: auto;
+    border: solid rgb(240, 235, 203);
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0.3em;
+}
+
+#sobremi{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    margin: auto;
+    justify-items: center;
+}
+
+#sobremi img{
+    width: 2.2em;
+    height: 2.2em;
+}
+
+.sobremi-item{
+    background-color: rgb(240, 235, 203);   
+    color: rgb(229, 97, 50);;
+    border-radius: 6em;
+    width: 6em;
+    height: 6em;
+    border: solid rgb(90, 73, 55);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
