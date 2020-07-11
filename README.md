@@ -1,23 +1,23 @@
-Bienvenido a mi primer portafolio web interactivo!
+## Bienvenido a mi primer portafolio web interactivo!
 
-Tecnologías:
+### Tecnologías:
 
-Frontend:
+    **Frontend**:
 
-	- SPA con React.
-	- Bootstrap.
-	- HTML y CSS.
-	- Flexbox y CSS Grid.
+	* SPA con React.
+	* Bootstrap.
+	* HTML y CSS.
+	* Flexbox y CSS Grid.
 
-Backend:
+    **Backend**:
 
-	- Express JS de Node.
-	- Sequelize para base de datos.
-	- MongoDB/MySQL/PostgreSQL.
-	- Docker.
-	- AWS.
+	* Express JS de Node.
+	* Sequelize para base de datos.
+	* MongoDB/MySQL/PostgreSQL.
+	* Docker.
+	* AWS.
 
-TODO:
+  * TODO:
 
 - Position absolute en Firefox
 - Fondo imgs cafe y donas
@@ -25,4 +25,5 @@ TODO:
 - Color nav items
 - Reemplazar uso excesivo de span por h1 h2 h3
 - Reutilizar valores de de estilos
+- Resolver bug altura pagina mobile. Espacio abajo de todo.
 
