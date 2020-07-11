@@ -4,6 +4,9 @@ body{
     margin: 0;
     padding: 0;
     font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .top-section a{
@@ -19,9 +22,8 @@ body{
 
 .main-section{
     background-color: rgb(297, 167, 118);
-    height: 80%;
     display: grid;
-    grid-template-rows: 100%;
+    height: 100%;
     grid-template-columns: 1fr 3fr 5fr 1fr;
     justify-items: center;
     align-items: center;
@@ -284,16 +286,9 @@ body{
 
     .top-section{
         background-color: rgb(90, 73, 55);
-        height: 7%;
     }
 
-    .main-section{
-        height: 86%;
-    }
 
-    .bottom-section{
-        height: 7%;
-    }   
 }
 
 @media (max-width: 486px){

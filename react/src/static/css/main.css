@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    max-height: 100vh;
     margin: 0;
     padding: 0;
     font-size: 45px;
@@ -71,10 +71,9 @@ body{
 .main-section{
     margin: auto;
     width: 85%;
-    height: fit-content;
     background-color: rgb(255, 167, 118);
     margin-top: 2em;
-    padding: 1em 1em;
+    padding: 0.1em 1em;
     text-align: center;
     font-family: 'Barlow Condensed', sans-serif;
     color:rgb(90, 73, 55);
@@ -108,7 +107,7 @@ body{
 
 
 .main-section-subtitle{
-    margin-bottom: 1.5em;
+    margin: 1.5em;
 }
 
 .main-section-proyectos{
@@ -147,22 +146,20 @@ body{
     font-size: 0.5em;
 }
 
-#proyecto1{
-
-}
-
-#proyecto2{
-}
-
-#proyecto3{
-}
-
-#proyecto4{
-}
-
-#proyecto5{
-}
-
 #educacion{
-    height: 15em;
+    background-color: rgb(240, 235, 203);
+    display: flex;
+    margin: auto;
+    width: 19em;
+    height: 10em;
+    justify-content: center;
+    background-color: rgb(240, 235, 203);;
+    border: solid rgb(90, 73, 55);
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 0.3em;
+}
+
+#educacion img{
+    width: 3em;
+    height: 3em;
 }

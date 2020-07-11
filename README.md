@@ -23,4 +23,6 @@ TODO:
 - Fondo imgs cafe y donas
 - Utilizar variables css para no repetir
 - Color nav items
+- Reemplazar uso excesivo de span por h1 h2 h3
+- Reutilizar valores de de estilos
 
