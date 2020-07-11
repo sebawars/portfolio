@@ -1,5 +1,22 @@
 Bienvenido a mi primer portafolio web interactivo!
 
+Tecnologías:
+
+Frontend:
+
+	- SPA con React.
+	- Bootstrap.
+	- HTML y CSS.
+	- Flexbox y CSS Grid.
+
+Backend:
+
+	- Express JS de Node.
+	- Sequelize para base de datos.
+	- MongoDB/MySQL/PostgreSQL.
+	- Docker.
+	- AWS.
+
 TODO:
 
 - Position absolute en Firefox
