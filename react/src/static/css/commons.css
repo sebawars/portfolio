@@ -15,4 +15,15 @@
 }
 
 
+.home-link{
+    display: flex;
+    width: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3em;
+    background-color: rgb(240, 235, 203);
+    height: 70%;
+    border-radius: 1em;
+}
+
 
