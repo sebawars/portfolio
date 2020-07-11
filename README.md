@@ -1,22 +1,24 @@
 ## Bienvenido a mi primer portafolio web interactivo!
 
-### Tecnologías:
-
-## Frontend:
-
--SPA con React JS.
--HTML y CSS.
--Flexbox y CSS Grid.
--Bootstrap.
 
 
-## Backend:
+## Tecnologías:
 
--Express JS de Node.
--Sequelize para base de datos.
--PostgreSQL.
--Docker.
--AWS.
+### Frontend:
+
+  * SPA con React JS.
+  * HTML y CSS.
+  * Flexbox y CSS Grid.
+  * Bootstrap.
+
+
+### Backend:
+
+  * Express JS de Node.
+  * Sequelize para base de datos.
+  * PostgreSQL.
+  * Docker.
+  * AWS.
 
 ## TODO:
 
