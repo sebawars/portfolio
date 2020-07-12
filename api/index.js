@@ -14,6 +14,6 @@ app.use('/api/comentarios', comentarios);
 
 app.use(errors);
 
-app.listen(config.api.port, () => {
-    console.log('Api escuchando en el puerto ', config.api.port);
+app.listen(config.server.port, () => {
+    console.log('Api escuchando en el puerto ', config.server.port);
 });
