@@ -72,6 +72,10 @@ body{
     margin-right: 1em;
 }
 
+#navbar{
+    pad: 0;
+}
+
 .main-section{
     margin: auto;
     width: 85%;
@@ -244,7 +248,51 @@ body{
     body{
         font-size: 27px;
     }
+    .sobremi-item{
+        width: 10em;
+        height: 10em;
+        margin: 0.3em 0;
+    }
     #sobremi{
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 745px){
+    #proyectos{
+        grid-auto-rows: 11em;
+    }
+}
+
+@media (max-width: 680px){
+    body{
+        font-size: 20px;
+    }
+    .sobremi-item{
+        width: 13em;
+        height: 13em;
+    }
+}
+
+@media (max-width: 496px){
+    body{
+        font-size: 16px;
+    }
+    .sobremi-item{
+        width: 15em;
+        height: 15em;
+    }
+}
+
+
+@media (max-width: 496px){
+    body{
+        font-size: 10px;
+    }
+    .sobremi-item{
+        width: 20em;
+        height: 20em;
     }
 }
