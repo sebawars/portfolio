@@ -30,4 +30,5 @@
 - Reutilizar valores de de estilos.
 - Resolver bug altura pagina mobile. Espacio abajo de todo.
 - Reconsiderar tantos quiebres en media queries.
+- Refinar CORS.
 
