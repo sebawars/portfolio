@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const config = require('../config.js');
 const comentarios = require('./components/comentarios/network');
@@ -7,6 +8,7 @@ const errors = require('../network/errors');
 
 const app = express();
 
+app.use(cors());
 app.use(bodyParser.json());
 
 // ROUTER
