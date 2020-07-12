@@ -1,6 +1,6 @@
 const db = {
-    'user': [
-        { id: '1', name: 'Sebastian' },
+    'comentarios': [
+        { id: '1', texto: 'Muy bueno el portafolio!', ip: '192' },
     ],
 };
 

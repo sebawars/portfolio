@@ -12,6 +12,11 @@ router.post('/', upsert);
 
 // Internal functions
 function list(req, res, next) {
+
+    ip = req.ips;
+
+    console.log(ip);
+
     Controller.list()
         .then((lista) => {
             response.success(req, res, lista, 200);
@@ -21,16 +26,16 @@ function list(req, res, next) {
 
 function get(req, res, next) {
     Controller.get(req.params.id)
-        .then((user) => {
-            response.success(req, res, user, 200);
+        .then((comentario) => {
+            response.success(req, res, comentario, 200);
         })
         .catch(next);
 }
 
 function upsert(req, res, next) {
     Controller.upsert(req.body)
-        .then((user) => {
-            response.success(req, res, user, 201);
+        .then((comentario) => {
+            response.success(req, res, comentario, 201);
         })
         .catch(next);
 }

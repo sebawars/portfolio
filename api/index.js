@@ -2,8 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const config = require('../config.js');
-const user = require('./components/user/network');
-const auth = require('./components/auth/network');
+const comentarios = require('./components/comentarios/network');
 const errors = require('../network/errors');
 
 const app = express();
@@ -11,8 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // ROUTER
-app.use('/api/user', user);
-app.use('/api/auth', auth);
+app.use('/api/comentarios', comentarios);
 
 app.use(errors);
 
